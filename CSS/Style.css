@@ -2,3 +2,14 @@
     max-width: 100%;
     border: 10px solid yellowgreen;
 }
+head {
+    --color-primary:    #f01f4b;
+    --color-text:       #17161A;
+    --color-background: #f5f5f5;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
