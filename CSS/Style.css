@@ -4,7 +4,7 @@
 
 :root
 {
-  --bg-black-900:#706e6e;
+  --bg-black-900:#e7e5e5;
   --bg-black-100:#fdf9ff;
   --bg-black-50:#e8dfec;
   --text-black-900:#302e4d;
@@ -72,10 +72,19 @@ ul
   margin-right: -15px;
   position: relative;
 }
+.btn
+{
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 35px;
+  color: white;
+  border-radius: 40px;
+  background: var(--skin-color);
+}
 .aside
 {
   width: 270px;
-  background: var(--bg-black-100);
+  background: black;
   position: fixed;
   left: 0;
   top: 0;
@@ -190,9 +199,9 @@ ul
 {
   min-height: 100vh;
   display: flex;
-  color: var(--text -black-900);
+  color: var(--text-black-900);
 }
-.home .hime-info
+.home .home-info
 {
   flex: 0 0 60%;
   max-width: 60%;
@@ -227,8 +236,7 @@ h3.my-profession
 .home .home-img
 {
   flex: 0 0 40%;
-  max-width: 40%;
-  background: red;
+  max-width: 40%; 
   text-align: center;
   position: relative;
 }
